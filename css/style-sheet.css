@@ -10,7 +10,7 @@ body
     text-align: center;
 }
 
-body p, body h2
+body p, body h2, body h3, body h4
 {
     color: #2d2e30;
 }
@@ -110,6 +110,13 @@ main
     margin: auto;
 }
 
+article h4
+{
+    text-align: left;
+    margin: 0px;
+    font-size: ;
+}
+
 article
 {
     display: flex;
@@ -148,6 +155,11 @@ span.bt
     background-color: #e0e0e0;
     border-radius: 3px;
     padding: 0px 5px;
+}
+
+p.cl
+{
+    text-indent: 0px;
 }
 
 /* Rodapé */
