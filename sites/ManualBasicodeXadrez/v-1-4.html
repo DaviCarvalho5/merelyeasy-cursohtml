@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style-sheet.css">
+    <title>Manual Básico de Xadrez</title>
+</head>
+
+<body>
+    <header id="topo">
+        <h1>Manual básico de Xadrez</h1>
+        <p>Escrito por Davi Gonçalves de Carvalho – V 1.4 de 03/02/2018</p>
+        <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li>Todas as versões:
+                <ol>
+                    <a href="erro.html"><li>v 1.0</li></a>
+                    <a href="erro.html"><li>v 1.1</li></a>
+                    <a href="erro.html"><li>v 1.2</li></a>
+                    <a href="erro.html"><li>v 1.3</li></a>
+                    <a href="v-1-4.html"><li>v 1.4</li></a>
+                </ol></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2 id="introducao">Introdução</h2>
+        <p>Este pequeno manual tem como objetivo te ensinar as regras básicas para se começar a jogar Xadrez, porém está longe de ser um guia completo com todas as informações e nomes que compõem o jogo, é um manual BÁSICO e servirá apenas como guia rápido para quem quer começar a jogar hoje.</p>
+        
+        <h2 id="tabuleiro">Tabuleiro</h2>
+        <p>Para começar precisamos entender como funcionar o tabuleiro de Xadrez. Ele é composto de 8x8 casas, metade preta, metade branca, distribuídas no famoso formato “xadrez”. Seu posicionamento sempre deve ser de forma que uma casa branca fique à direita de cada jogador.
+        O tabuleiro também conta com letras e números para localizar a posição exata de cada peça, números que vão de 1 até 8, e letras que vão de A até H.</p>
+       
+        <img src="img/tabuleiro-menor.jpg" alt="Tabuleiro de Xadrez">
+        <br><br>
+        <h2 id="pospec">Posição das Peças no Tabuleiro</h2>
+        <p>O Xadrez conta com 32 peças onde 16 são brancas e para um jogador e 16 são pretas e para outro jogador. Esses devem organizar as suas da seguinte maneira:</p>
+        
+        <span class="centro"><table>
+            
+            <tr>
+                <td>2</td>
+                <td>Peão</td>
+                <td>Peão</td>
+                <td>Peão</td>
+                <td>Peão</td>
+                <td>Peão</td>
+                <td>Peão</td>
+                <td>Peão</td>
+                <td>Peão</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Torre</td>
+                <td>Cavalo</td>
+                <td>Bispo</td>
+                <td>Dama</td>
+                <td>Rei</td>
+                <td>Bispo</td>
+                <td>Cavalo</td>
+                <td>Torre</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+                <td>g</td>
+                <td>h</td>
+            </tr>
+            
+        </table></span>
+        
+        <p>O Rei sempre deve ficar na casa com a cor oposta a sua</p>
+        
+        <h2 id="pecmov">Peças e Seus Movimentos</h2>
+        <p>No Xadrez cada peça tem sua movimentação:</p>
+        <dl>
+        
+            <dt id="41">Rei</dt>
+            <dd>Move-se reto ou na diagonal, porém, apenas uma casa.
+            A bolinhas nas imagens abaixo representam as opções de movimentação, ou seja, as
+            posições que a peça representada pode assumir.</dd><br>
+            <img src="img/rei-mov.jpg" alt="Movimento do rei">
+            <br><br>
+            <dt id="42">Dama</dt>
+            <dd>Assim como o Rei, a Dama pode se mover reto ou na diagonal, porém, anda quantas casas
+            quiser, mas apenas em uma das direções por vez.</dd><br>
+            <img src="img/dama-mov.jpg" alt="Movimento da dama">
+            <br><br>
+            <dt id="43">Torre</dt>
+            <dd>A Torre se move apenas em direções retas, quantas casas quiser.</dd><br>
+            <img src="img/torre-mov.jpg" alt="Movimento da torre">
+            <br><br>
+            <dt id="44">Cavalo</dt>
+            <dd>O cavalo é a peça com a movimentação mais interessante, ele se move em forma de L, indo
+            uma casa para horizontal e duas para a vertical, ou duas casas para horizontal e uma para o     vertical.
+            Também é a única peça que pode passar por cima de outras.</dd><br>
+            <img src="img/cavalo-mov.jpg" alt="Movimento do cavalo">
+            <br><br>
+            <dt id="45">Bispo</dt>
+            <dd>O bispo se move na diagonal, quantas casas quiser.</dd><br>
+            <img src="img/bispo-mov.jpg" alt="Movimento do bispo">
+            <br><br>
+            <dt id="46">Peão</dt>
+            <dd>O peão se move apenas para frente, uma casa por vez, porém, na primeira jogada de
+            qualquer um deles, pode-se mover 2 casas; captura outras peças apenas na diagonal (localização
+            representada por um x na imagem abaixo); pode ser promovido, caso chegue na outra extremidade
+            do tabuleiro, podendo se tonar qualquer outra peça (menos um rei).</dd><br>
+            <img src="img/peao-mov.jpg" alt="Movimento do peão">            
+        
+        </dl>   
+        
+        <h2 id="cappec">Captura de peças</h2>
+        <p>No Xadrez denomina-se captura o ato de posicionar uma de suas peças na mesma posição que outra
+        rival, dessa forma a antiga sai do jogo e sua peça assume a posição dela.</p>
+        
+        <h2 id="valpec">Valor das Peças</h2>
+        <p>Cada peça no jogo dá uma pontuação para quem a captura, ela é utilizada para definir o vencedor
+        em caso de empate:</p>
+        
+        <span class="centro"><table>
+            <thead>
+            <tr>
+                <th>Peça</th>
+                <th>Valor</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Rei</td>
+                <td>Infinito</td>
+            </tr>
+            <tr>
+                <td>Dama</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Torre</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Cavalo</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Bispo</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Pesão</td>
+                <td>1</td>
+            </tr>
+            </tbody>
+        </table></span>
+        
+        <h2 id="reppec">Representação de Peças</h2>
+        <p>Enquanto jogamos Xadrez, é importante anotarmos as nossas jogadas para que não haja algum problema
+        futuro, porém seria muito demorado escrever o nome da peça e depois colocar o movimento, por isso existe
+        alguns símbolos para nos ajudar:</p>
+        
+        <span class="centro"><table>
+            <thead>
+            <tr>
+                <th>Peça</th>
+                <th>Letra</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Rei</td>
+                <td>R</td>
+            </tr>
+            <tr>
+                <td>Dama</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>Torre</td>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>Cavalo</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Bispo</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Pesão</td>
+                <td>P</td>
+            </tr>
+            </tbody>
+        </table></span>
+        
+        <span class="centro"><p>Para simbolizarmos um movimento fazemos assim:<br>
+        Letra + Posição para qual a peça foi movida<br>
+        ex: Ta2<br><br>
+        Se houver uma captura de peça apenas acrescentamos um X:<br>
+        Letra + “X” + Posição para qual a peça foi movida<br>
+        ex: DxC<br></p></span>
+        
+        <h2 id="xeqxeq">Xeque e Xeque-Mate</h2>
+        <dl>
+        <dt id="81">Xeque</dt>
+        <dd>Xeque é quando o rei está ameaçado por uma, ou mais peças, porém há alguma forma de escapar.
+        Ameaçada(o) é o nome dado ao estado de uma peça que pode ser capturada na próxima rodada.</dd>
+        <dt id="82">Xeque-Mate</dt>
+        <dd>Xeque-mate é o objetivo do jogo, quando o rei está ameaçado por uma, ou mais peças e não há
+        nenhuma forma de escapar.</dd>
+        </dl>
+        
+        <h2 id="jogile">Jogadas Ilegais</h2>
+        <p>Jogadas ilegais são aquelas que vão contra o jogo, são permitidas até 2 jogadas ilegais por jogador,
+        caso um deles cometa a terceira, automaticamente perde.
+        São consideradas jogadas ilegais:</p>
+        <ol>
+        <li>Tocar em uma peça e jogar com outra;</li>
+        <li>Quando seu rei estiver em cheque, fazer um movimento que não o tire dessa situação;</li>
+        <li>Fazer um movimento que coloque seu rei em xeque.</li>
+        </ol>
+        
+        <h2 id="tempo">Tempo</h2>
+        <p>Oficialmente o Xadrez é jogado com tempo. O relógio no Xadrez é usado para determinar o tempo
+        de cada movimento.</p>
+        
+        <h2 id="empate">Empate</h2>
+        <p><b>Trecho retirado de:</b> <a href="http://www.soxadrez.com.br/conteudos/fases_partida/"  target="_blank">http://www.soxadrez.com.br/conteudos/fases_partida/</a></p>
+        <p><b>Rei Afogado:</b> nessa situação o Rei encontra-se encurralado em uma posição da qual não consegue sair, pois
+        nenhum lance é legal. É semelhante ao xeque-mate, exceto pelo Rei não estar em xeque. Esse lance é
+        controverso na história do xadrez, tendo sido considerado por momentos como vitória do jogador cujo Rei
+        termina afogado, em outros momentos visto como derrota, e hoje, finalmente, como empate.</p>
+        <p><b>Xeque perpétuo:</b> não há uma regra que defina o xeque perpétuo como empate, no entanto a maioria dos
+        jogadores concorda. Como o próprio nome sugere, o xeque perpétuo ocorre quando um jogador realiza uma
+        série de xeques sem que seja possível dar um mate. Pelas regras oficiais, esse movimento resultará em
+        empate pela Regra das Três Posições ou pela Regra dos 50 Movimentos.</p>
+        <p><b>Regra da Três Posições:</b> segundo as regras oficiais estabelecidas pela FIDE, um jogador pode reclamar o
+        empate quando uma posição for repetida pela terceira vez em um jogo. A reclamação deve ser feita na vez
+        do jogador, e as possibilidades de movimento tem que ser as mesmas para todas as peças no tabuleiro. Se
+        na primeira posição existia a possibilidade de roque e agora não há mais, então não é a mesma posição.</p>        
+        <p><b>Regra dos 50 Movimentos:</b> outra regulamentação da FIDE institui que o jogador pode reclamar o empate se
+        os 50 últimos lances de cada jogador foram feitos sem que nenhuma peça fosse capturada ou que houvesse
+        movimento de qualquer peão.</p>
+        <p><b>Insuficiência material:</b> é considerado empate caso os jogadores não tenham peças suficientes para dar o
+        xeque-mate. O mínimo de peças considerado suficiente é de a) Rei e Dama; b) Rei e Torre; c) Rei e dois
+        Bispos; d) Rei, Bispo e Cavalo. Também é possível ganhar a partida com o Rei e um peão, porém ele deve ser
+        promovido a Dama ou Torre para efetuar o xeque-mate e evitar o empate.</p>
+        <p><b>Comum Acordo:</b> um jogador pode oferecer o empate, na sua vez, e a partida se dá por encerrada caso o
+        oponente aceite. Se o oponente recusar a oferta de empate, a partida segue, sendo que o jogador a oferecer
+        o empate não pode repetir a oferta, tampouco pode o oponente aceitar a oferta em uma jogada posterior.</p>
+
+    </main>
+
+    <a href="#topo"><div class="bttopo"></div></a>
+            
+    <footer>
+        <p>&copy; 2017 Davi Gonçalves de carvalho.</p>
+    </footer>
+    
+</body>
+
+</html>
