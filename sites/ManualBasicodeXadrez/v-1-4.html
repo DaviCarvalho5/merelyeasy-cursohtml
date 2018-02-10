@@ -41,9 +41,12 @@
         <h2 id="pospec">Posição das Peças no Tabuleiro</h2>
         <p>O Xadrez conta com 32 peças onde 16 são brancas e para um jogador e 16 são pretas e para outro jogador. Esses devem organizar as suas da seguinte maneira:</p>
         
-        <span class="centro"><table>
+        <span class="centro"><table class="tabule">
             
-            <tr>
+            <colgroup>
+                <col class="numeros">
+            </colgroup>
+            <tr class="a">
                 <td>2</td>
                 <td>Peão</td>
                 <td>Peão</td>
@@ -54,7 +57,7 @@
                 <td>Peão</td>
                 <td>Peão</td>
             </tr>
-            <tr>
+            <tr class="b">
                 <td>1</td>
                 <td>Torre</td>
                 <td>Cavalo</td>
@@ -65,7 +68,7 @@
                 <td>Cavalo</td>
                 <td>Torre</td>
             </tr>
-            <tr>
+            <tr class="a" class="letras">
                 <td></td>
                 <td>a</td>
                 <td>b</td>
@@ -161,6 +164,7 @@
             </tr>
             </tbody>
         </table></span>
+        <br>
         
         <h2 id="reppec">Representação de Peças</h2>
         <p>Enquanto jogamos Xadrez, é importante anotarmos as nossas jogadas para que não haja algum problema
