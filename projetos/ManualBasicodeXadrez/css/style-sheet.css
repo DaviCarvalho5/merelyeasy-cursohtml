@@ -9,6 +9,11 @@ body
     margin: 0px;
 }
 
+img
+{
+    object-fit: cover;
+}
+
 /* Cabeçalho */
 
 header
@@ -109,6 +114,7 @@ table
 {
     margin: auto;
     border-collapse: collapse;
+    width: 40%;
 }
 
 table.tabule tr.a td:nth-child(odd)
@@ -141,7 +147,7 @@ table, table td, table th
 table td, table th
 {
     border: 1px solid black;
-    padding: 2px 5px 2px 5px;
+    padding: 1px 1px 1px 1px;
 }
 
 img
