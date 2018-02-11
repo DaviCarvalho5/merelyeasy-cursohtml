@@ -3,24 +3,11 @@
 
 /* Respossividade */
 
-@media(max-width: 600px)
-{
-    body
-    {
-        max-width: 600px;
-    }
-    
+@media(max-width: 640px)
+{    
     ul
     {    
         flex-flow: column;
-    }
-}
-
-@media(max-width: 900px)
-{
-    body
-    {
-        max-width: 900px;
     }
 }
 
@@ -28,6 +15,11 @@
 
 *
 {font-size: 100%;}
+
+img
+{
+    object-fit: scale-down;
+}
 
 body
 {
